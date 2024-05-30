@@ -121,7 +121,48 @@ fix the array so that China and Pakistan are added back into their respective pl
    2. Add a click event listener to the box
    3. Log out "I want to open the box!" when it's clicked */
 
-let box = document.getElementById("box")
-box.addEventListener("click", function() {
-    console.log("I want to open the box!")
-})
+// let box = document.getElementById("box")
+// box.addEventListener("click", function() {
+//     console.log("I want to open the box!")
+// })
+
+
+
+// If possible, use const. If not, use let.
+// which variables below should be changed from let to const?
+// The customer wants to order some stuff. Here are the details:
+
+// const basePrice = 520
+// const discount = 120
+// let shippingCost = 12
+// let shippingTime = "5-12 days"
+
+// // Whoops! Turns out the shipping will be a bit more complex
+
+// shippingCost = 15
+// shippingTime = "7-12 days"
+
+// // Calculating the full price
+// const fullPrice = basePrice - discount + shippingCost
+
+// //Finally, notifying the customer
+
+// console.log("Total cost: " + fullPrice + ". It will arrive in " + shippingTime)
+
+// Use .innerHTML to render a Buy! button inside the div container
+
+// const container = documentGetElementId("container")
+// container.innerHTML = "<button onclick'buy()'>Buy!</button>"
+
+// function buy(){
+//    container.innerHTML += "<p>Thank you for buying!<p>"
+// }
+  
+// // create element 
+// document.createElement("li")
+// // store in variable
+// const li = document.createElement("li")
+// //set text cntent
+// li.textContent = myLeads[i]
+// // append to ul
+// ulEl.append(li)
