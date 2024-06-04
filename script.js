@@ -1,4 +1,3 @@
-/* Log out "Button clicked!" when the user clicks the "SAVE INPUT" button */
 
 let myLeads = [];
 const inputEl = document.getElementById("input-el");
@@ -14,7 +13,7 @@ function renderLeads(){
     let listItems = "";
     for( let i = 0; i < myLeads.length; i++){
         listItems += 
-        <li>
+    <li>
         <a target='_blank' href='${myLeads[i]}'>
             ${myLeads[i]}
         </a>
