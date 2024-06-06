@@ -177,3 +177,16 @@ fix the array so that China and Pakistan are added back into their respective pl
 // const email = `Hey ${recipient}! How is it going? Cheers ${sender}`
 
 // console.log(email)
+
+// 1. Save a key/value pair in localStorage
+// 2. Refresh the page. Get the value and log it to the console
+// 3. Clear localStorage
+
+// localStorage.setItem("myName", "Heather Flanders")
+// let name = localStorage.getItem("myName")
+// localStorage.clear()
+
+// myLeads = JSON.parse(myLeads)
+// myLeads.push("www.epiclead.com")
+// myLeads = JSON.stringify(myLeads)
+// console.log(typeof myLeads)
